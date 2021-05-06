@@ -18,14 +18,14 @@ export class HomeComponent implements OnInit {
   
   constructor() { }
 
-  votosJedi!: number;
+  votosJedi: number = 0;
 
-  votosEmpire!: number;
+  votosEmpire: number = 0;
 
 
   ngOnInit(): void {
-    this.votosJedi = 0;
-    this.votosEmpire = 0;
+    this.votosJedi;
+    this.votosEmpire;
   }
 
   adicionaVotoJedi() {
@@ -34,11 +34,12 @@ export class HomeComponent implements OnInit {
   }
   
   adicionaVotoEmpire() {
-    this.votosEmpire++;
+    
   }
 
   resetarVotos()
  {
-
+  this.votosJedi = 0;
+  this.votosEmpire = 0;
  }
 }
