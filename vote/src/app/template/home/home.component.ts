@@ -34,7 +34,7 @@ export class HomeComponent implements OnInit {
   }
   
   adicionaVotoEmpire() {
-    
+    this.votosEmpire++;
   }
 
   resetarVotos()
