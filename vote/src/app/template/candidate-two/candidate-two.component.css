@@ -1,0 +1,98 @@
+
+/* Candidate two */
+.card-one {
+  max-width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 2rem 0;
+}
+.example-card {
+ 
+  max-width: 300px;
+  height: 786px;
+}
+
+.btn-voto{
+
+  display: flex;
+    
+}
+.btn-vote {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 20px ;
+}
+.btn-info {
+  
+  margin: 0 20px;
+}
+
+.btn-vote button {
+  border: 1px solid grey;
+  border-radius: 5% ;   
+}
+
+spa-resultados{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -400px;
+  margin-left: -760px;
+  
+}
+
+/* Candidate two */
+
+.example-card {
+ 
+  max-width: 300px;
+  height: 786px;
+}
+.card-two {
+  max-width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 750px;
+  margin-top: -800px;
+  
+  padding: 2rem 0;
+}
+.btn-voto{
+
+ 
+  display: flex;
+ 
+}
+.btn-vote {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 20px ;
+}
+.btn-info {
+  
+  margin: 0 20px;
+}
+
+.btn-vote button {
+  border: 1px solid grey;
+  border-radius: 5% ;   
+}
+img {
+  width: 332px;
+  height: 498px;
+}
+.btn-reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -770px;
+ 
+}
+
+
