@@ -30,15 +30,13 @@ export class HomeComponent implements OnInit {
 
   adicionaVotoJedi() {
     this.votosJedi++;
-    
   }
   
   adicionaVotoEmpire() {
     this.votosEmpire++;
   }
 
-  resetarVotos()
- {
+  resetarVotos() {
   this.votosJedi = 0;
   this.votosEmpire = 0;
  }

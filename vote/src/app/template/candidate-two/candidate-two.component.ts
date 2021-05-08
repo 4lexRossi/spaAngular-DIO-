@@ -18,12 +18,10 @@ export class CandidateTwoComponent implements OnInit {
 
   votosEmpire: number = 1;
 
-
   ngOnInit(): void {
 
-    this.votosEmpire = 5;
+    this.votosEmpire = 0;
   }
-
 
   adicionaVotoEmpire() {
     this.votosEmpire++;
